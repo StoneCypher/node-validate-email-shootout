@@ -19,6 +19,7 @@ module.exports = [
     require('./others/microsoft.js'),
     require('./others/parsley.js'),
     require('./others/sitepoint.js'),
-    require('./others/ffalc.js')
+    require('./others/ffalc.js'),
+    require('./others/jskit.js')
 
 ];
