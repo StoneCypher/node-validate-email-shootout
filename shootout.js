@@ -51,4 +51,6 @@ var res = verify();
 res.sort(function(X,Y) { return X.score < Y.score; });
 
 console.log('Of a possible ' + maxscore.toString() + ':');
-console.log(JSON.stringify(res, null, 2));
+res.map(function(X) {
+  console.log('  ' + X.name + ': ' + X.score);
+});
