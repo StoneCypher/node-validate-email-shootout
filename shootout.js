@@ -47,10 +47,9 @@ function verify(shortForm) {
 
 
 
-var res = verify();
-res.sort(function(X,Y) { return X.score < Y.score; });
+var res = verify().sort(function(X,Y) { return X.score < Y.score? 1 : (X.score > Y.score? -1 : 0); });
 
 console.log('Of a possible ' + maxscore.toString() + ':');
 res.map(function(X) {
-  console.log('  ' + X.name + ': ' + X.score);
+  console.log('  ' + X.score + ' ' + X.name);
 });
