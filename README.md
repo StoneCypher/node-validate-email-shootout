@@ -8,7 +8,7 @@ A shootout test of node-validate-email
 ![License](http://img.shields.io/badge/License-MIT-000055.svg) &nbsp;
 ![Status](http://img.shields.io/travis/StoneCypher/node-validate-email-shootout.svg) &nbsp;
 
-[![NPM Downloads](http://img.shields.io/npm/dm/node-validate-email-shootout.svg)](https://npmjs.org/package/node-validate-email-shootout)
+[![NPM Downloads](http://img.shields.io/npm/dm/validate-email-shootout.svg)](https://npmjs.org/package/validate-email-shootout)
 
 ![](https://nodei.co/npm/validate-email-shootout.png?stars=true&downloads=true)
 
