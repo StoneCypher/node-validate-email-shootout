@@ -10,7 +10,7 @@ A shootout test of node-validate-email
 
 [![NPM Downloads](http://img.shields.io/npm/dm/node-validate-email-shootout.svg)](https://npmjs.org/package/node-validate-email-shootout)
 
-![](https://nodei.co/npm/node-validate-email-shootout.png?stars=true&downloads=true)
+![](https://nodei.co/npm/validate-email-shootout.png?stars=true&downloads=true)
 
 
 
