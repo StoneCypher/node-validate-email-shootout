@@ -49,8 +49,31 @@ Winner:
 
 > [Steve](http://stackoverflow.com/a/10906478/763127)
 
+... for now.
+
+
 
 
 
 How, please
 -----------
+
+First, I gathered a bunch of email test data, and put it into packages like
+[testdata-valid-email](https://www.npmjs.org/package/testdata-valid-email),
+[testdata-invalid-email](https://www.npmjs.org/package/testdata-valid-email), and
+[testdata-newtld-email](https://www.npmjs.org/package/testdata-valid-email), from
+excellent community resources like
+[Fighting for a Lost Cause](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php).
+
+Then, I made a mechanic to test them one at a time, and count the results.
+
+Finally, I gathered as many email validators as I could find, and I leveraged them.
+
+
+
+
+
+Polemic :neckbeard:
+-------------------
+
+`node-validate-email-shootout` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
