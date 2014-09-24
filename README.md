@@ -3,6 +3,15 @@ node-validate-email-shootout
 
 A shootout test of node-validate-email
 
+![Language](http://img.shields.io/badge/Language-JavaScript-000000.svg) &nbsp;
+![Platform](http://img.shields.io/badge/Platform-NPM-000000.svg) &nbsp;
+![License](http://img.shields.io/badge/License-MIT-000055.svg) &nbsp;
+![Status](http://img.shields.io/travis/StoneCypher/node-validate-email-shootout.svg) &nbsp;
+
+[![NPM Downloads](http://img.shields.io/npm/dm/node-validate-email-shootout.svg)](https://npmjs.org/package/node-validate-email-shootout)
+
+![](https://nodei.co/npm/node-validate-email-shootout.png?stars=true&downloads=true)
+
 
 
 
