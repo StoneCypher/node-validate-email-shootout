@@ -22,8 +22,6 @@
     "testdata-valid-email": "*",
     "testdata-invalid-email": "*",
     "testdata-newtld-email": "*",
-//  "testdata-punycode-email": "*",
-//  "testdata-international-email": "*",
     "validator": "*",
     "validate-email": "*"
   },
