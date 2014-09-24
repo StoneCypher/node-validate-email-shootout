@@ -2,7 +2,7 @@
 module.exports = [
 
     // us
-    { name: 'This Library', url: 'https://github.com/StoneCypher/node-validate-email', test: require('validate-email') },
+    { name: 'validate-email', url: 'https://github.com/StoneCypher/node-validate-email', test: require('validate-email') },
 
     // other npm folks
     { name: 'validator', url: 'https://www.npmjs.org/package/validator', test: require('validator').isEmail },
