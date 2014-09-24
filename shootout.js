@@ -3,7 +3,7 @@ var competition = require('./the_competitors.js'),
 
     valid       = require('testdata-valid-email'),
     invalid     = require('testdata-invalid-email'),
-    asMarkdown  = true; // whargarbl todo
+    asMarkdown  = false; // whargarbl todo
 
 
 
@@ -55,13 +55,13 @@ function Render(res) {
 
     console.log('\nOf a possible ' + maxscore.toString() + ':\n');
 
-    if (asMarkdown) { console.log('| Score | Name |\n|-------|------|'); }
-    else            { console.log('    Sco Name\n    --- -----------'); }
+    if (asMarkdown) { console.log('| Score | Pct | Name |\n|-------|-----|------|'); }
+    else            { console.log('    Sco Pct   Name\n    --- ----- -----------'); }
 
     res.map(function(X) {
 
-        if (asMarkdown) { console.log('| ' + X.score + ' | [' + X.name + '](' + X.url + ') |'); }
-        else            { console.log('    ' + X.score + ' ' + X.name);      }
+        if (asMarkdown) { console.log('| ' + X.score + ' | ' + (X.score / maxscore * 100).toFixed(2) + ' | [' + X.name + '](' + X.url + ') |'); }
+        else            { console.log('    ' + X.score + ' ' + (X.score / maxscore * 100).toFixed(2) + ' ' + X.name);      }
 
     });
 
