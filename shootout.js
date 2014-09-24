@@ -3,7 +3,7 @@ var competition = require('./the_competitors.js'),
 
     valid       = require('testdata-valid-email'),
     invalid     = require('testdata-invalid-email'),
-    asMarkdown  = false; // whargarbl todo
+    asMarkdown  = true; // whargarbl todo
 
 
 
