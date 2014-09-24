@@ -2,7 +2,7 @@
   "author": "John Haugeland",
   "name": "validate-email-shootout",
   "description": "A shootout to verify the quality of node-validate-email",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "repository": {
     "url": "https://github.com/StoneCypher/node-validate-email-shootout.git"
   },
