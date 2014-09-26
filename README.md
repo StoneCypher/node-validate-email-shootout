@@ -25,7 +25,7 @@ they to pick between?
 I got tired of it.  I'm making a proof of it.
 
 I'm going to release a better email validator soon.  I'm not done yet, but my
-prerelease is already the 8th best I can find.  (I'm coming for you, Steve.)
+prerelease is already spitting distance behind best I can find.  (I'm coming for you, Steve.)
 
 
 
