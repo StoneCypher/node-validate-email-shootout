@@ -6,7 +6,7 @@ A shootout test of node-validate-email
 ![Language](http://img.shields.io/badge/Language-JavaScript-000000.svg) &nbsp;
 ![Platform](http://img.shields.io/badge/Platform-NPM-000000.svg) &nbsp;
 ![License](http://img.shields.io/badge/License-MIT-000055.svg) &nbsp;
-![Status](http://img.shields.io/travis/StoneCypher/node-validate-email-shootout.svg) &nbsp;
+![Status](http://img.shields.io/travis/StoneCypher/node-validate-email-shootout.svg)
 
 [![NPM Downloads](http://img.shields.io/npm/dm/validate-email-shootout.svg)](https://npmjs.org/package/validate-email-shootout)
 
@@ -34,7 +34,7 @@ prerelease is already spitting distance behind best I can find.  (I'm coming for
 It's data time!
 ---------------
 
-Of a possible 266:
+Of a possible 266 (better numbers are on their way soon) :
 
 | Score | Pct | Name |
 |-------|-----|------|
