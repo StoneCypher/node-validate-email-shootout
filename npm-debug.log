@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'c:\\projects\\node-validate-email-shootout',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package.tgz not in flight; packing
+9 info lifecycle validate-email-shootout@1.3.5~prepublish: validate-email-shootout@1.3.5
+10 silly lifecycle validate-email-shootout@1.3.5~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ 'C:\\Users\\John\\AppData\\Roaming\\npm-cache\\validate-email-shootout\\1.3.5\\package.tgz',
+11 verbose tar pack   'c:\\projects\\node-validate-email-shootout' ]
+12 verbose tarball C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package.tgz
+13 verbose folder c:\projects\node-validate-email-shootout
+14 verbose addLocalTarball adding from inside cache C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package.tgz
+15 silly cache afterAdd validate-email-shootout@1.3.5
+16 verbose afterAdd C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package\package.json not in flight; writing
+17 verbose afterAdd C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package\package.json written
+18 silly publish { author: { name: 'John Haugeland' },
+18 silly publish   name: 'validate-email-shootout',
+18 silly publish   description: 'A shootout to verify the quality of node-validate-email',
+18 silly publish   version: '1.3.5',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/StoneCypher/node-validate-email-shootout.git' },
+18 silly publish   contributors: [ { name: 'John Haugeland', email: 'stonecypher@gmail.com' } ],
+18 silly publish   license: 'MIT',
+18 silly publish   keywords:
+18 silly publish    [ 'test',
+18 silly publish      'testing',
+18 silly publish      'validate',
+18 silly publish      'validation',
+18 silly publish      'email',
+18 silly publish      'mail',
+18 silly publish      'address',
+18 silly publish      'check',
+18 silly publish      'comparison',
+18 silly publish      'shootout' ],
+18 silly publish   dependencies:
+18 silly publish    { vows: '*',
+18 silly publish      'testdata-valid-email': '*',
+18 silly publish      'testdata-invalid-email': '*',
+18 silly publish      'testdata-newtld-email': '*',
+18 silly publish      validator: '*',
+18 silly publish      'validate-email': '*' },
+18 silly publish   main: 'node-validate-email-shootout.js',
+18 silly publish   engines: { node: '*' },
+18 silly publish   scripts: { test: 'vows test/* --spec' },
+18 silly publish   readme: 'node-validate-email-shootout\r\n============================\r\n\r\nA shootout test of node-validate-email\r\n\r\n![Language](http://img.shields.io/badge/Language-JavaScript-000000.svg) &nbsp;\r\n![Platform](http://img.shields.io/badge/Platform-NPM-000000.svg) &nbsp;\r\n![License](http://img.shields.io/badge/License-MIT-000055.svg) &nbsp;\r\n![Status](http://img.shields.io/travis/StoneCypher/node-validate-email-shootout.svg)\r\n\r\n[![NPM Downloads](http://img.shields.io/npm/dm/validate-email-shootout.svg)](https://npmjs.org/package/validate-email-shootout)\r\n\r\n![](https://nodei.co/npm/validate-email-shootout.png?stars=true&downloads=true)\r\n\r\n\r\n\r\n\r\n\r\nWat\r\n---\r\n\r\nDude, seriously, how many email validators are there out there?  How hard are\r\nthey to pick between?\r\n\r\nI got tired of it.  I\'m making a proof of it.\r\n\r\nI\'m going to release a better email validator soon.  I\'m not done yet, but my\r\nprerelease is already spitting distance behind best I can find.  (I\'m coming for you, Steve.)\r\n\r\n\r\n\r\n\r\n\r\nIt\'s data time!\r\n---------------\r\n\r\nOf a possible 266 (better numbers are on their way soon) :\r\n\r\n| Score | Pct | Name |\r\n|-------|-----|------|\r\n| 195/266 | 73.31 | [Steve](http://stackoverflow.com/a/10906478/763127) |\r\n| 195 | 73.31 | [validator](https://www.npmjs.org/package/validator) |\r\n| 195 | 73.31 | [validate-email](https://github.com/StoneCypher/node-validate-email) |\r\n| 194 | 72.93 | [bvl from StackOverflow](http://stackoverflow.com/a/16016476/763127) |\r\n| 194 | 72.93 | [Parsley](http://stackoverflow.com/a/25125279/763127) |\r\n| 190 | 71.43 | [Sectrean](http://stackoverflow.com/a/46181/763127) |\r\n| 174 | 65.41 | [RFC2822 HTML5](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php) |\r\n| 165 | 62.03 | [Fighting for a Lost Cause](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php) |\r\n| 156 | 58.65 | [Sitepoint](http://www.sitepoint.com/javascript-validate-email-address-regex/) |\r\n| 153 | 57.52 | [Tugrul Asik](http://stackoverflow.com/a/14622590/763127) |\r\n| 153 | 57.52 | [Microsoft](http://stackoverflow.com/a/20373180/763127) |\r\n| 153 | 57.52 | [JsKit](http://www.javascriptkit.com/script/script2/acheck.shtml) |\r\n| 149 | 56.02 | [Naive @ and . test](http://stackoverflow.com/a/9204568/763127) |\r\n| 145 | 54.51 | [Voyager w/ brackets](http://stackoverflow.com/a/9204568/763127) |\r\n| 132 | 49.62 | [Voyager locked](http://stackoverflow.com/a/9204568/763127) |\r\n\r\nWinner:\r\n\r\n> [Steve](http://stackoverflow.com/a/10906478/763127)\r\n\r\n... for now.  My package is tied with his regex (because I copied it,) so he gets the win.\r\n\r\nImprovements incoming.  :smile:\r\n\r\n\r\n\r\n\r\n\r\nHow, please\r\n-----------\r\n\r\nFirst, I gathered a bunch of email test data, and put it into packages like\r\n[testdata-valid-email](https://www.npmjs.org/package/testdata-valid-email),\r\n[testdata-invalid-email](https://www.npmjs.org/package/testdata-valid-email), and\r\n[testdata-newtld-email](https://www.npmjs.org/package/testdata-valid-email), from\r\nexcellent community resources like\r\n[Fighting for a Lost Cause](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php).\r\n\r\nThen, I made a mechanic to test them one at a time, and count the results.\r\n\r\nFinally, I gathered as many email validators as I could find, and I leveraged them.\r\n\r\n\r\n\r\n\r\n\r\nPolemic :neckbeard:\r\n-------------------\r\n\r\n`node-validate-email-shootout` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it\'s free for everyone.\r\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '656965759347b435595703ab2c796bf0327b634d',
+18 silly publish   bugs: { url: 'https://github.com/StoneCypher/node-validate-email-shootout/issues' },
+18 silly publish   homepage: 'https://github.com/StoneCypher/node-validate-email-shootout#readme',
+18 silly publish   _id: 'validate-email-shootout@1.3.5',
+18 silly publish   _shasum: '4724cb995bcd303d428b560d274470121e8eda1b',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name validate-email-shootout
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/validate-email-shootout
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading C:\Users\John\AppData\Roaming\npm-cache\validate-email-shootout\1.3.5\package.tgz
+26 verbose request uri https://registry.npmjs.org/validate-email-shootout
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 7:18:11 PM
+29 verbose request id ae33b2176fdb325d
+30 http request PUT https://registry.npmjs.org/validate-email-shootout
+31 http 500 https://registry.npmjs.org/validate-email-shootout
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '107',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Sun, 27 Mar 2016 02:18:11 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lax1425-LAX',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1459045091.772510,VS0,VE195' }
+33 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND user-acl-2-west.internal.npmjs.com user-acl-2-west.internal.npmjs.com:443 : validate-email-shootout
+34 info attempt registry request try #2 at 7:18:22 PM
+35 http request PUT https://registry.npmjs.org/validate-email-shootout
+36 http 500 https://registry.npmjs.org/validate-email-shootout
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=0',
+37 verbose headers   'content-length': '107',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sun, 27 Mar 2016 02:18:22 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1459045102.074969,VS0,VE186' }
+38 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND user-acl-2-west.internal.npmjs.com user-acl-2-west.internal.npmjs.com:443 : validate-email-shootout
+39 info attempt registry request try #3 at 7:19:22 PM
+40 http request PUT https://registry.npmjs.org/validate-email-shootout
+41 http 500 https://registry.npmjs.org/validate-email-shootout
+42 verbose headers { 'content-type': 'application/json',
+42 verbose headers   'cache-control': 'max-age=0',
+42 verbose headers   'content-length': '107',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Sun, 27 Mar 2016 02:19:22 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-lax1431-LAX',
+42 verbose headers   'x-cache': 'MISS',
+42 verbose headers   'x-cache-hits': '0',
+42 verbose headers   'x-timer': 'S1459045162.420735,VS0,VE218' }
+43 verbose request invalidating C:\Users\John\AppData\Roaming\npm-cache\registry.npmjs.org\validate-email-shootout on PUT
+44 error publish Failed PUT 500
+45 verbose stack Error: getaddrinfo ENOTFOUND user-acl-2-west.internal.npmjs.com user-acl-2-west.internal.npmjs.com:443 : validate-email-shootout
+45 verbose stack     at makeError (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+45 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+45 verbose stack     at Request._callback (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+45 verbose stack     at Request.self.callback (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+45 verbose stack     at emitTwo (events.js:87:13)
+45 verbose stack     at Request.emit (events.js:172:7)
+45 verbose stack     at Request.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1063:14)
+45 verbose stack     at emitOne (events.js:82:20)
+45 verbose stack     at Request.emit (events.js:169:7)
+45 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+46 verbose statusCode 500
+47 verbose pkgid validate-email-shootout
+48 verbose cwd c:\projects\node-validate-email-shootout
+49 error Windows_NT 10.0.10586
+50 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+51 error node v5.0.0
+52 error npm  v3.3.6
+53 error code E500
+54 error getaddrinfo ENOTFOUND user-acl-2-west.internal.npmjs.com user-acl-2-west.internal.npmjs.com:443 : validate-email-shootout
+55 error If you need help, you may report this error at:
+55 error     <https://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]
