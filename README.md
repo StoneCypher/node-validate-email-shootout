@@ -38,7 +38,7 @@ Of a possible 266 (better numbers are on their way soon) :
 
 | Score | Pct | Name |
 |-------|-----|------|
-| 195 | 73.31 | [Steve](http://stackoverflow.com/a/10906478/763127) |
+| 195/266 | 73.31 | [Steve](http://stackoverflow.com/a/10906478/763127) |
 | 195 | 73.31 | [validator](https://www.npmjs.org/package/validator) |
 | 195 | 73.31 | [validate-email](https://github.com/StoneCypher/node-validate-email) |
 | 194 | 72.93 | [bvl from StackOverflow](http://stackoverflow.com/a/16016476/763127) |
