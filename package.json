@@ -7,10 +7,12 @@
     "type": "git",
     "url": "https://github.com/StoneCypher/node-validate-email-shootout.git"
   },
-  "contributors": [{
-    "name": "John Haugeland",
-    "email": "stonecypher@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "John Haugeland",
+      "email": "stonecypher@gmail.com"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "test",
@@ -30,13 +32,17 @@
     "testdata-invalid-email": "*",
     "testdata-newtld-email": "*",
     "validator": "*",
-    "validate-email": "*"
+    "validate-email": "*",
+    "snyk": "^1.319.0"
   },
   "main": "node-validate-email-shootout.js",
   "engines": {
     "node": "*"
   },
   "scripts": {
-    "test": "vows test/* --spec"
-  }
+    "test": "vows test/* --spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
